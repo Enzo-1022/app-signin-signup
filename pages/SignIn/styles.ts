@@ -19,7 +19,7 @@ export const Title = styled.Text`
 `;
 
 export const Logo = styled.Image`
-  width: 50;
-  heigth: 50;
-  margin-bottom: 10;
+  width: 10px;
+  heigth: 10px;
+  margin-bottom: 10px;
 `

@@ -3,7 +3,7 @@ import { ScrollView } from 'react-native';
 import { Input } from '../../src/components/screen/input';
 import { Container, Content, CreateAccount, CreateAccountTitle, Icon, Logo, Title } from './styles';
 import { Button } from '../../src/components/screen/button';
-import favicon from '../../assets/favicon.png';
+import logo from '../../assets/logo.png';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -24,8 +24,8 @@ export const SignIn: React.FunctionComponent = () => {
 
           <Content>
 
-            <Logo source={favicon}/>
-            <Title>Login</Title>
+            <Logo source={logo}/>
+            <Title>Organizador De Escrita</Title>
             <Input placeholder="Email"/>
             <Input placeholder="Senha"/>
             <Button title='Entrar'/>

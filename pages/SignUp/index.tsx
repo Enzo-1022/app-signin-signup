@@ -2,7 +2,8 @@ import React from 'react';
 import { ScrollView } from 'react-native';
 import { Button } from '../../src/components/screen/button';
 import { Input } from '../../src/components/screen/input';
-import { Container, Content, CreateAccount, CreateAccountTitle, Icon, Title } from './styles';
+import { Container, Content, Title, Logo } from './styles';
+import logo from '../../assets/logo.png';
 
 export const SignUp: React.FunctionComponent = () => {
   return (
@@ -15,11 +16,13 @@ export const SignUp: React.FunctionComponent = () => {
 
         <Container>
           <Content>
-            <Title>Criar Conta</Title>
-            <Input placeholder="Nome Do Usuario"/>
+            <Logo source={logo}/>
+            <Title>Organizador De Escrita</Title>
+            <Input placeholder="Nome Completo"/>
             <Input placeholder="Email"/>
             <Input placeholder="Senha"/>
-            <Button title='Criar Conta'/>
+            <Input placeholder="Confirme Sua Senha"/>
+            <Button title='Registrar-Se'/>
           </Content>
         </Container>
 

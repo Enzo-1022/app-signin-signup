@@ -3,15 +3,24 @@ import { Feather } from '@expo/vector-icons';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: rgb(192, 192, 192);
+  background-color: #420080;;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 100;
+  padding-top: 50;
 `;
+
 export const Content = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  padding: 24px;
+  width: 90%;
+  padding: 20px;
+  background-color: white;
+  borderRadius: 20px;
 `;
+
 export const Title = styled.Text`
   font-size: 18px;
   color: gray;
@@ -20,8 +29,8 @@ export const Title = styled.Text`
 `;
 
 export const Logo = styled.Image`
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   marginBottom: 10px;
 `
 
@@ -36,7 +45,7 @@ export const CreateAccount = styled.TouchableOpacity`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: gray;
+  background-color: #000000;
   padding: 16px 0;
   justify-content: center;
   align-items: center;
